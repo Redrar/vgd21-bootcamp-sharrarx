@@ -6,7 +6,10 @@ namespace vgd21_bootcamp_sharrarx
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            Storing.Initialize();
+
+
             Console.WriteLine("Press Any Key to Exit.");
             Console.ReadKey();
             
