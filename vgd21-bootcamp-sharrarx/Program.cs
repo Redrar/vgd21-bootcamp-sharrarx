@@ -7,7 +7,9 @@ namespace vgd21_bootcamp_sharrarx
         static void Main(string[] args)
         {
 
-            Storing.Initialize();
+            //Storing.Initialize();
+            //Storing.DemoVariables();
+            Storing.ReadingInput();
 
 
             Console.WriteLine("Press Any Key to Exit.");
