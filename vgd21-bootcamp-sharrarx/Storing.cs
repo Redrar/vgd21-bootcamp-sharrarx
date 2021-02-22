@@ -89,14 +89,14 @@ namespace vgd21_bootcamp_sharrarx
             {
                 Console.WriteLine("It's a weekday.");
             }
-            _enemy bruh;
-            bruh.name = "BRUH";
-            bruh.health = 40;
-            bruh.isAlive = true;
-            bruh.damage = 10;
+            _enemy boss;
+            boss.name = "Vlad the Destroyer";
+            boss.health = 40;
+            boss.isAlive = true;
+            boss.damage = 10;
 
-            bruh.health--;
-            Console.WriteLine("{0} has health of {1}", bruh.name, bruh.health);
+            boss.health--;
+            Console.WriteLine("{0} has health of {1}", boss.name, boss.health);
         }
 
 
